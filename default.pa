@@ -1,0 +1,3 @@
+.include /etc/pulse/default.pa
+load-module module-alsa-sink device=hw:"M6"
+set-default-sink alsa_output.hw__M6_
